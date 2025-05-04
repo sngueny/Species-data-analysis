@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.datasets import load_iris
 
-# Set the style for the plots
+# style for the plots
 plt.style.use('seaborn-v0_8')
 
 # Task 1: Load and Explore the Dataset
@@ -45,7 +45,6 @@ try:
     print(df.isnull().sum())
     print("\n")
     
-    # For demonstration purposes, let's introduce some missing values and then clean them
     # Create a copy of the DataFrame to avoid modifying the original
     df_with_missing = df.copy()
     
